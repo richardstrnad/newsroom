@@ -955,7 +955,7 @@ aside h3 {
 
 .post_next::after {
   content: "";
-  background-image: url("../images/icons/double-arrow.svg");
+  background-image: url("..icons/double-arrow.svg");
   background-repeat: repeat no-repeat;
   background-size: 0.8rem;
   background-position: center right;
@@ -1141,7 +1141,7 @@ aside h3 {
 
 .never {
   min-height: 60vh;
-  background: url("../images/sitting.svg");
+  background: url("..sitting.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;

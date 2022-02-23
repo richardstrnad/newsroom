@@ -17,7 +17,7 @@
   {{ if in . "https://" }}
     {{- $image = . }}
   {{ else }}
-    {{- $image = absURL (printf "images/%s" .) }}
+    {{- $image = absURL (printf "uploads/%s" .) }}
   {{ end }}
 {{- else }}
   {{- $image = $logo }}

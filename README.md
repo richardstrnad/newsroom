@@ -2,7 +2,7 @@
 
 This is a simple, minimalistic theme, which is inspired by [Apple's Newsroom page](https://www.apple.com/newsroom/). It uses *grid css*, *flexbox* & js (no jQuery, or related libraries).
 
-![Hugo Newsroom Theme](https://github.com/onweru/newsroom/blob/master/images/screenshot.png)
+![Hugo Newsroom Theme](https://github.com/onweru/newsroom/blob/masterscreenshot.png)
 
 ## Features
 
@@ -48,7 +48,7 @@ Follow the `exampleSite/`; specifically, the [content](https://github.com/onweru
 
 Today, operating systems have a system-wide __light ~ dark mode__ switch. Your website will adapt to the user's preferred lighting mode. Still, if the user wants to opt in or out of darkmode, there's a UI control for that too in the menu 😊.
 
-![Dark Mode](https://github.com/onweru/newsroom/blob/master/images/screenshot-dark.png)
+![Dark Mode](https://github.com/onweru/newsroom/blob/masterscreenshot-dark.png)
 
 #### How do I disable dark mode?
 
@@ -58,11 +58,11 @@ Under `params` add `disableDarkMode = true` to your `config.toml` file. If your 
 
 ### Custom 404 Page
 
-![404 page](https://github.com/onweru/newsroom/blob/master/images/404.png)
+![404 page](https://github.com/onweru/newsroom/blob/master404.png)
 
 ### Syntax highlighting
 
-![404 page](https://github.com/onweru/newsroom/blob/master/images/syntax.png) 
+![404 page](https://github.com/onweru/newsroom/blob/mastersyntax.png) 
 
 If you wish, you can opt to [use Chroma](./exampleSite/config.toml#L17-L27).
 
@@ -77,7 +77,7 @@ disqusShortname = "yourdiscussshortname"
 
 From your disqus dashboard, set your scripts `color scheme` to __auto__. See screenshot below
 
-![](https://github.com/onweru/newsroom/blob/master/images/disqus-color-scheme.png)
+![](https://github.com/onweru/newsroom/blob/masterdisqus-color-scheme.png)
 
 ## Custom Shortcodes
 

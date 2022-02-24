@@ -1,6 +1,6 @@
 <div class = 'wrap pt-2 mt-2'>
   <h1>{{ .Title }}</h1>
-  {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "").ByPublishDate.Reverse }}
+  {{ $paginator := .Paginate (where .Data.Pages "Section" "!=" "").ByPublishDate }}
   {{- $size := $paginator.PageSize }}
   {{- $scratch := newScratch }}
   <div class='grid-2 article_showcase'>
@@ -22,7 +22,7 @@
         <time class = 'post_date'>{{ dateFormat "January 02, 2006" $value.Date }}</time>
         <h3 class = 'article_title'>{{ $value.Title }}</h3>
         <div class = 'article_excerpt visible'>
-        <p>{{ $value.Summary | truncate 100 }}</p>
+        <p>{{ $value.Description }}</p>
         </div>
       </div><div class="archive wrap mt">
     </a>
